@@ -1,0 +1,10 @@
+id: CS20250428
+title: Basal Ganglia consensus taxonomy
+description: HMBA basal ganglia consensus taxonomy, developed in collaboration with the BRAIN Initiative Cell Census Network (BICCN).
+matrix_file_id: CellXGene_dataset:nhp50930-982a-11ee-b9d1-0242ac120002
+github_org: brain-bican
+repo: basal_ganglia_consensus_taxonomy
+author: https://orcid.org/0000-0002-4436-969X
+citation: ''
+creators:
+  - https://orcid.org/0000-0002-4436-969X

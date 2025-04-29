@@ -1,0 +1,5 @@
+.relatable/
+build/
+.DS_Store
+purl/mytoken.txt
+*.pid

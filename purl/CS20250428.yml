@@ -1,0 +1,29 @@
+# PURL configuration for https://purl.brain-bican.org/taxonomy/CS20250428
+idspace: CS20250428
+base_url: /taxonomy/CS20250428
+
+products:
+- CS20250428.json: https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/main/CS20250428.json
+
+base_redirect: https://brain-bican.github.io/basal_ganglia_consensus_taxonomy
+
+entries:
+
+# https://purl.brain-bican.org/taxonomy/CS20250428/CS20250428.json
+- exact: /CS20250428.json
+  replacement: https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/main/CS20250428.json
+
+# https://purl.brain-bican.org/taxonomy/CS20250428/releases/2023-09-24/CS20250428.json
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/v
+  tests:
+    - from: /releases/2023-09-24/
+      to: https://raw.githubusercontent.com/brain-bican/basal_ganglia_consensus_taxonomy/v2023-09-24/
+
+# This config should be the last item since it will catch all remaining paths
+# https://purl.brain-bican.org/taxonomy/CS20250428/accession_id
+- regex: ^/taxonomy/CS20250428/(.*)$
+  replacement: https://brain-bican.github.io/basal_ganglia_consensus_taxonomy/cell_sets/$1
+  tests:
+  - from: /CS20250428/CS20250428_1
+    to: https://brain-bican.github.io/basal_ganglia_consensus_taxonomy/cell_sets/CS20250428_1
