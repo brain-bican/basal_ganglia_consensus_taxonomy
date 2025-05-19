@@ -3,8 +3,8 @@ name: Export and Publish Taxonomy
 permissions: write-all
 
 on:
-  schedule:
-    - cron: '0 * * * *'
+  # schedule:
+  #   - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -48,7 +48,7 @@ jobs:
 
       - name: Run tdta export
         run: |
-          tdta export -f ./curation_tables -o "${{ steps.set_vars.outputs.cas_json_file }}" -c ./
+          tdta export -f ./curation_tables -o "${{ steps.set_vars.outputs.cas_json_file }}"
 
       - name: Run cas2rdf conversion
         run: |
