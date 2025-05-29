@@ -26,7 +26,7 @@ fields:
     rank: 3
     accession_column: accession_neighborhood
 
-  - column_name: literature_name
+  - column_name: literature_name_short
     column_type: synonyms
 
   - column_name: literature_support
@@ -34,6 +34,3 @@ fields:
 
   - column_name: curated_markers
     column_type: marker_gene_evidence
-
-#  - column_name: "CL:ID_class"
-#    column_type: cell_ontology_term_id
