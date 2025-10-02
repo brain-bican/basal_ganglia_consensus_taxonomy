@@ -2,11 +2,11 @@
 from pathlib import Path
 import pandas as pd
 
-SHEET_ID = "1LkeHNxWd5eltpbbYzH2aocMpnZjpIS7PpwXFk9d5ggg"
+SHEET_ID = "1yatMYkBVp7xac3DAJZ0r6jrtDBhyfjqAUcC1efDYLuc"
 
 # Map tab names -> gids (fill in the real gid values)
 TABS = {
-    "WMBT_annotation": "0",
+    "BGCT_annotation": "0",
 }
 
 OUTDIR = Path(__file__).resolve().parents[1] / "curation_tables"
@@ -31,8 +31,8 @@ for tab_name, gid in TABS.items():
         first_col = df.columns[0]
         df = df.sort_values(by=first_col, kind="mergesort", na_position="last")
 
-    # Output file name (strip "WMBT_" prefix)
-    out_name = strip_prefix(tab_name, "WMBT") or "sheet"
+    # Output file name (strip "BGCT" prefix)
+    out_name = strip_prefix(tab_name, "BGCT") or "sheet"
     out_file = OUTDIR / f"{out_name}.tsv"
 
     # Write TSV with LF endings
