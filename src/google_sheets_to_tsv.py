@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 import requests
 
-SHEET_ID = "1LkeHNxWd5eltpbbYzH2aocMpnZjpIS7PpwXFk9d5ggg"
+SHEET_ID = "1yatMYkBVp7xac3DAJZ0r6jrtDBhyfjqAUcC1efDYLuc"
 
 # Map tab names -> gids (fill in the real gid values)
 TABS = {
