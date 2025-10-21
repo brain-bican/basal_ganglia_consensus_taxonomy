@@ -843,6 +843,8 @@
       "labelset": "Group",
       "cell_label": "STRd D2 StrioMat Hybrid MSN",
       "cell_set_accession": "CS20250428_GROUP_0053",
+      "cell_ontology_term_id": "CL:4023035",
+      "cell_ontology_term": "lateral ganglionic eminence derived neuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0029",
       "author_annotation_fields": {
         "embedding_set": "LGE",
@@ -1049,6 +1051,8 @@
       "labelset": "Group",
       "cell_label": "GPe MEIS2-SOX6 GABA",
       "cell_set_accession": "CS20250428_GROUP_0013",
+      "cell_ontology_term_id": "CL:4023035",
+      "cell_ontology_term": "lateral ganglionic eminence derived neuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0006",
       "author_annotation_fields": {
         "embedding_set": "LGE",
@@ -1091,6 +1095,8 @@
       "labelset": "Group",
       "cell_label": "AMY-SLEA-BNST GABA",
       "cell_set_accession": "CS20250428_GROUP_0066",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0037",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1133,6 +1139,8 @@
       "labelset": "Group",
       "cell_label": "AMY-SLEA-BNST D1 GABA",
       "cell_set_accession": "CS20250428_GROUP_0065",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0037",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1175,6 +1183,8 @@
       "labelset": "Group",
       "cell_label": "SN SEMA5A GABA",
       "cell_set_accession": "CS20250428_GROUP_0034",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0026",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1217,6 +1227,8 @@
       "labelset": "Group",
       "cell_label": "SN EBF2 GABA",
       "cell_set_accession": "CS20250428_GROUP_0030",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0026",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1259,6 +1271,8 @@
       "labelset": "Group",
       "cell_label": "OB FRMD7 GABA",
       "cell_set_accession": "CS20250428_GROUP_0068",
+      "cell_ontology_term_id": "CL:0000617",
+      "cell_ontology_term": "GABAergic neuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0036",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1301,6 +1315,8 @@
       "labelset": "Group",
       "cell_label": "OB Dopa-GABA",
       "cell_set_accession": "CS20250428_GROUP_0067",
+      "cell_ontology_term_id": "CL:0000617",
+      "cell_ontology_term": "GABAergic neuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0036",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1343,8 +1359,8 @@
       "labelset": "Group",
       "cell_label": "GPi Shell",
       "cell_set_accession": "CS20250428_GROUP_0016",
-      "cell_ontology_term_id": "CL:0008060",
-      "cell_ontology_term": "GABA-Glut neuron",
+      "cell_ontology_term_id": "CL:0020004",
+      "cell_ontology_term": "internal globus pallidus shell projecting neuron",
       "rationale_dois": [
         "https://doi.org/10.1016/j.neuron.2017.03.017"
       ],
@@ -1393,6 +1409,8 @@
       "labelset": "Group",
       "cell_label": "GPi Core",
       "cell_set_accession": "CS20250428_GROUP_0015",
+      "cell_ontology_term_id": "CL:0020003",
+      "cell_ontology_term": "internal globus pallidus core projecting neuron",
       "rationale_dois": [
         "https://doi.org/10.1016/j.neuron.2017.03.017"
       ],
@@ -1441,6 +1459,8 @@
       "labelset": "Group",
       "cell_label": "SN GATA3-PVALB GABA",
       "cell_set_accession": "CS20250428_GROUP_0033",
+      "cell_ontology_term_id": "CL:0000617",
+      "cell_ontology_term": "GABAergic neuron",
       "rationale_dois": [
         "https://doi.org/10.3389/fnins.2022.976209"
       ],
@@ -1493,6 +1513,8 @@
       "labelset": "Group",
       "cell_label": "GPe SOX6-CTXND1 GABA",
       "cell_set_accession": "CS20250428_GROUP_0014",
+      "cell_ontology_term_id": "CL:0000617",
+      "cell_ontology_term": "GABAergic neuron",
       "marker_gene_evidence": [
         "SOX6",
         "KCNA1"
@@ -1539,6 +1561,8 @@
       "labelset": "Group",
       "cell_label": "ZI-HTH GABA",
       "cell_set_accession": "CS20250428_GROUP_0063",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0037",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1581,6 +1605,8 @@
       "labelset": "Group",
       "cell_label": "SN-VTR-HTH GATA3-TCF7L2 GABA",
       "cell_set_accession": "CS20250428_GROUP_0037",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0016",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1623,6 +1649,8 @@
       "labelset": "Group",
       "cell_label": "SN GATA3-PAX8 GABA",
       "cell_set_accession": "CS20250428_GROUP_0032",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "rationale_dois": [
         "https://doi.org/10.3389/fnins.2022.976209"
       ],
@@ -1676,6 +1704,8 @@
       "labelset": "Group",
       "cell_label": "GPe-NDB-SI LHX6-LHX8-GBX1 GABA",
       "cell_set_accession": "CS20250428_GROUP_0020",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0005",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1718,6 +1748,8 @@
       "labelset": "Group",
       "cell_label": "VIP GABA",
       "cell_set_accession": "CS20250428_GROUP_0047",
+      "cell_ontology_term_id": "CL:4023016",
+      "cell_ontology_term": "VIP GABAergic cortical interneuron",
       "rationale_dois": [
         "https://doi.org/10.1038/s41586-020-2874-8"
       ],
@@ -1769,6 +1801,8 @@
       "labelset": "Group",
       "cell_label": "LAMP5-CXCL14 GABA",
       "cell_set_accession": "CS20250428_GROUP_0004",
+      "cell_ontology_term_id": "CL:4023011",
+      "cell_ontology_term": "lamp5 GABAergic cortical interneuron",
       "marker_gene_evidence": [
         "LAMP5",
         "CXCL14"
@@ -1818,6 +1852,8 @@
       "labelset": "Group",
       "cell_label": "STR SST-CHODL GABA",
       "cell_set_accession": "CS20250428_GROUP_0043",
+      "cell_ontology_term_id": "CL:4023121",
+      "cell_ontology_term": "sst chodl GABAergic cortical interneuron",
       "rationale_dois": [
         "https://doi.org/10.1038/s41586-020-2874-8"
       ],
@@ -1870,6 +1906,8 @@
       "labelset": "Group",
       "cell_label": "STR SST-RSPO2 GABA",
       "cell_set_accession": "CS20250428_GROUP_0044",
+      "cell_ontology_term_id": "CL:4023017",
+      "cell_ontology_term": "sst GABAergic cortical interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0031",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1912,6 +1950,8 @@
       "labelset": "Group",
       "cell_label": "STR LYPD6-RSPO2 GABA",
       "cell_set_accession": "CS20250428_GROUP_0041",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0031",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1954,6 +1994,8 @@
       "labelset": "Group",
       "cell_label": "STR SST-ADARB2 GABA",
       "cell_set_accession": "CS20250428_GROUP_0042",
+      "cell_ontology_term_id": "CL:4023017",
+      "cell_ontology_term": "sst GABAergic cortical interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0032",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1996,6 +2038,8 @@
       "labelset": "Group",
       "cell_label": "LAMP5-LHX6 GABA",
       "cell_set_accession": "CS20250428_GROUP_0005",
+      "cell_ontology_term_id": "CL:4042013",
+      "cell_ontology_term": "Lamp5 Lhx6 neuron",
       "marker_gene_evidence": [
         "LAMP5",
         "LHX6"
@@ -2154,6 +2198,8 @@
       "labelset": "Group",
       "cell_label": "STR-BF TAC3-PLPP4-LHX8 GABA",
       "cell_set_accession": "CS20250428_GROUP_0046",
+      "cell_ontology_term_id": "CL:4042001",
+      "cell_ontology_term": "TAC3-positive striatal interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0008",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2196,6 +2242,8 @@
       "labelset": "Group",
       "cell_label": "GPin-BF Cholinergic GABA",
       "cell_set_accession": "CS20250428_GROUP_0003",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0001",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2238,6 +2286,8 @@
       "labelset": "Group",
       "cell_label": "STR Cholinergic GABA",
       "cell_set_accession": "CS20250428_GROUP_0055",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0001",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2280,6 +2330,8 @@
       "labelset": "Group",
       "cell_label": "STRd Cholinergic GABA",
       "cell_set_accession": "CS20250428_GROUP_0048",
+      "cell_ontology_term_id": "CL:0011005",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0001",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2322,6 +2374,8 @@
       "labelset": "Group",
       "cell_label": "SN-VTR GAD2 Dopa",
       "cell_set_accession": "CS20250428_GROUP_0031",
+      "cell_ontology_term_id": "CL:0000700",
+      "cell_ontology_term": "dopaminergic neuron",
       "rationale_dois": [
         "https://doi.org/10.1101/2024.06.06.597807"
       ],
@@ -2476,6 +2530,8 @@
       "labelset": "Group",
       "cell_label": "BF SKOR1 Glut",
       "cell_set_accession": "CS20250428_GROUP_0008",
+      "cell_ontology_term_id": "CL:4042040",
+      "cell_ontology_term": "glutamatergic neuron of the basal ganglia",
       "parent_cell_set_accession": "CS20250428_SUBCL_0013",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2518,6 +2574,8 @@
       "labelset": "Group",
       "cell_label": "VTR-HTH Glut",
       "cell_set_accession": "CS20250428_GROUP_0064",
+      "cell_ontology_term_id": "CL:4042040",
+      "cell_ontology_term": "glutamatergic neuron of the basal ganglia",
       "marker_gene_evidence": [
         "SLC17A6"
       ],
@@ -2563,6 +2621,8 @@
       "labelset": "Group",
       "cell_label": "STH PVALB-PITX2 Glut",
       "cell_set_accession": "CS20250428_GROUP_0038",
+      "cell_ontology_term_id": "CL:4042023",
+      "cell_ontology_term": "striatal pthlh-expressing interneuron",
       "rationale_dois": [
         "https://doi.org/10.1038/s41586-023-06812-z"
       ],
@@ -3112,6 +3172,8 @@
       "labelset": "Group",
       "cell_label": "Monocyte",
       "cell_set_accession": "CS20250428_GROUP_0022",
+      "cell_ontology_term_id": "CL:0000576",
+      "cell_ontology_term": "monocyte",
       "rationale_dois": [
         "https://doi.org/10.1038/s41586-023-06812-z"
       ],
@@ -3160,6 +3222,8 @@
       "labelset": "Group",
       "cell_label": "B cells",
       "cell_set_accession": "CS20250428_GROUP_0000",
+      "cell_ontology_term_id": "CL:0000236",
+      "cell_ontology_term": "B cell",
       "marker_gene_evidence": [
         "FCRL1",
         "BANK1"
