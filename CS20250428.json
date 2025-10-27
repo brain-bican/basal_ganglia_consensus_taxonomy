@@ -1361,8 +1361,15 @@
       "cell_set_accession": "CS20250428_GROUP_0016",
       "cell_ontology_term_id": "CL:0020004",
       "cell_ontology_term": "internal globus pallidus shell projecting neuron",
+      "rationale": "Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression.",
       "rationale_dois": [
-        "https://doi.org/10.1016/j.neuron.2017.03.017"
+        "https://doi.org/10.1016/j.neuron.2017.03.017",
+        "https://doi.org/10.1523/ENEURO.0208-22.2022"
+      ],
+      "marker_gene_evidence": [
+        "Sst",
+        "Tbr1",
+        "Slc17a6"
       ],
       "synonyms": [
         "GPi Shell"
@@ -1411,8 +1418,13 @@
       "cell_set_accession": "CS20250428_GROUP_0015",
       "cell_ontology_term_id": "CL:0020003",
       "cell_ontology_term": "internal globus pallidus core projecting neuron",
+      "rationale": "Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb.",
       "rationale_dois": [
-        "https://doi.org/10.1016/j.neuron.2017.03.017"
+        "https://doi.org/10.1016/j.neuron.2017.03.017",
+        "https://doi.org/10.1523/ENEURO.0208-22.2022"
+      ],
+      "marker_gene_evidence": [
+        "Pvalb"
       ],
       "synonyms": [
         "GPi Core"
