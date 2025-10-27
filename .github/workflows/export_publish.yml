@@ -52,14 +52,14 @@ jobs:
         run: |
           tdta export -f ./curation_tables -o "${{ steps.set_vars.outputs.cas_json_file }}"
 
-      # - name: Run cas2rdf conversion
-      #   run: |
-      #     cas cas2rdf --schema bican \
-      #     --data "${{ steps.set_vars.outputs.cas_json_file }}" \
-      #     --ontology_ns "${{ steps.set_vars.outputs.taxonomy_id }}" \
-      #     --ontology_iri "https://purl.brain-bican.org/ontology/${{ steps.set_vars.outputs.taxonomy_id }}/" \
-      #     --out "${{ steps.set_vars.outputs.taxonomy_id }}.rdf" \
-      #     --exclude_cells
+      - name: Run cas2rdf conversion
+        run: |
+          cas cas2rdf --schema bican \
+          --data "${{ steps.set_vars.outputs.cas_json_file }}" \
+          --ontology_ns "${{ steps.set_vars.outputs.taxonomy_id }}" \
+          --ontology_iri "https://purl.brain-bican.org/ontology/${{ steps.set_vars.outputs.taxonomy_id }}/" \
+          --out "${{ steps.set_vars.outputs.taxonomy_id }}.rdf" \
+          --exclude_cells
 
       - name: Commit and push changes
         run: |
