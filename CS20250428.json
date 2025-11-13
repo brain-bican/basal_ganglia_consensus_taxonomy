@@ -843,8 +843,6 @@
       "labelset": "Group",
       "cell_label": "STRd D2 StrioMat Hybrid MSN",
       "cell_set_accession": "CS20250428_GROUP_0053",
-      "cell_ontology_term_id": "CL:4023035",
-      "cell_ontology_term": "lateral ganglionic eminence derived neuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0029",
       "author_annotation_fields": {
         "embedding_set": "LGE",
@@ -944,7 +942,7 @@
       "cell_label": "STRv D1 NUDAP MSN",
       "cell_set_accession": "CS20250428_GROUP_0057",
       "cell_ontology_term_id": "CL:4030054",
-      "cell_ontology_term": "RXFP1-positive interface island D1-medium spiny neuron",
+      "cell_ontology_term": "D1- NUDAP medium spiny neuron",
       "rationale_dois": [
         "https://doi.org/10.1016/j.cub.2021.10.015"
       ],
@@ -1051,8 +1049,20 @@
       "labelset": "Group",
       "cell_label": "GPe MEIS2-SOX6 GABA",
       "cell_set_accession": "CS20250428_GROUP_0013",
-      "cell_ontology_term_id": "CL:4023035",
-      "cell_ontology_term": "lateral ganglionic eminence derived neuron",
+      "cell_ontology_term_id": "CL:0020010",
+      "cell_ontology_term": "arkypallidal neuron",
+      "rationale": "Mapping to the arkypallidal neuron is based on location (GPe), expression of GAD1/2, FOXP2, MEIS2, and NPAS1 and lack of expression of canonical pallidal markers NKX2-1 and LHX6, SST and PV.",
+      "rationale_dois": [
+        "https://doi.org/10.1016/j.neuron.2015.03.007",
+        "https://doi.org/10.1523/JNEUROSCI.4662-14.2015",
+        "https://doi.org/10.1038/s41593-023-01368-7"
+      ],
+      "marker_gene_evidence": [
+        "GAD1/2",
+        " FOXP2",
+        " MEIS2",
+        " and NPAS1"
+      ],
       "parent_cell_set_accession": "CS20250428_SUBCL_0006",
       "author_annotation_fields": {
         "embedding_set": "LGE",
@@ -1315,8 +1325,8 @@
       "labelset": "Group",
       "cell_label": "OB Dopa-GABA",
       "cell_set_accession": "CS20250428_GROUP_0067",
-      "cell_ontology_term_id": "CL:0000617",
-      "cell_ontology_term": "GABAergic neuron",
+      "cell_ontology_term_id": "CL:0020006",
+      "cell_ontology_term": "OB-Dopa GABA",
       "parent_cell_set_accession": "CS20250428_SUBCL_0036",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -1361,7 +1371,7 @@
       "cell_set_accession": "CS20250428_GROUP_0016",
       "cell_ontology_term_id": "CL:0020004",
       "cell_ontology_term": "internal globus pallidus shell projecting neuron",
-      "rationale": "Mapped to the general type GPi shell neuron (internal globus pallidus shell projection neuron) based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 + absence of or Pvalb expression.",
+      "rationale": "Mapping to the general type GPi shell neuron (internal globus pallidus shell projection neuron) is based on soma location (to GPi & surrounding GPi core neurons), neurotransmitter (dual GABA-Glut), expression of sst, Sst,Tbr1,Slc17a6 and absence of Pvalb expression.",
       "rationale_dois": [
         "https://doi.org/10.1016/j.neuron.2017.03.017",
         "https://doi.org/10.1523/ENEURO.0208-22.2022"
@@ -1418,7 +1428,7 @@
       "cell_set_accession": "CS20250428_GROUP_0015",
       "cell_ontology_term_id": "CL:0020003",
       "cell_ontology_term": "internal globus pallidus core projecting neuron",
-      "rationale": "Mapping to the general GPi core cell type was based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb.",
+      "rationale": "Mapping to the general GPi core cell type is based on location (to GPi, nested inside GPi shell neurons), predicted neurotransmitter (GABA), and expression of Pvalb.",
       "rationale_dois": [
         "https://doi.org/10.1016/j.neuron.2017.03.017",
         "https://doi.org/10.1523/ENEURO.0208-22.2022"
@@ -1525,8 +1535,12 @@
       "labelset": "Group",
       "cell_label": "GPe SOX6-CTXND1 GABA",
       "cell_set_accession": "CS20250428_GROUP_0014",
-      "cell_ontology_term_id": "CL:0000617",
-      "cell_ontology_term": "GABAergic neuron",
+      "cell_ontology_term_id": "CL:0020009",
+      "cell_ontology_term": "prototypic neuron",
+      "rationale": "Mapping to the general type of prototypic neuron is based on location (GPe) and expression of Nkx2-1.",
+      "rationale_dois": [
+        "https://doi.org/10.1016/j.neuron.2015.03.007"
+      ],
       "marker_gene_evidence": [
         "SOX6",
         "KCNA1"
@@ -1761,7 +1775,7 @@
       "cell_label": "VIP GABA",
       "cell_set_accession": "CS20250428_GROUP_0047",
       "cell_ontology_term_id": "CL:4023016",
-      "cell_ontology_term": "VIP GABAergic cortical interneuron",
+      "cell_ontology_term": "VIP GABAergic interneuron",
       "rationale_dois": [
         "https://doi.org/10.1038/s41586-020-2874-8"
       ],
@@ -1814,7 +1828,7 @@
       "cell_label": "LAMP5-CXCL14 GABA",
       "cell_set_accession": "CS20250428_GROUP_0004",
       "cell_ontology_term_id": "CL:4023011",
-      "cell_ontology_term": "lamp5 GABAergic cortical interneuron",
+      "cell_ontology_term": "lamp5 GABAergic interneuron",
       "marker_gene_evidence": [
         "LAMP5",
         "CXCL14"
@@ -1865,7 +1879,7 @@
       "cell_label": "STR SST-CHODL GABA",
       "cell_set_accession": "CS20250428_GROUP_0043",
       "cell_ontology_term_id": "CL:4023121",
-      "cell_ontology_term": "sst chodl GABAergic cortical interneuron",
+      "cell_ontology_term": "sst chodl GABAergic interneuron",
       "rationale_dois": [
         "https://doi.org/10.1038/s41586-020-2874-8"
       ],
@@ -1919,7 +1933,7 @@
       "cell_label": "STR SST-RSPO2 GABA",
       "cell_set_accession": "CS20250428_GROUP_0044",
       "cell_ontology_term_id": "CL:4023017",
-      "cell_ontology_term": "sst GABAergic cortical interneuron",
+      "cell_ontology_term": "sst GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0031",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2007,7 +2021,7 @@
       "cell_label": "STR SST-ADARB2 GABA",
       "cell_set_accession": "CS20250428_GROUP_0042",
       "cell_ontology_term_id": "CL:4023017",
-      "cell_ontology_term": "sst GABAergic cortical interneuron",
+      "cell_ontology_term": "sst GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0032",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2055,9 +2069,6 @@
       "marker_gene_evidence": [
         "LAMP5",
         "LHX6"
-      ],
-      "synonyms": [
-        "LAMP5"
       ],
       "parent_cell_set_accession": "CS20250428_SUBCL_0003",
       "author_annotation_fields": {
@@ -2254,8 +2265,8 @@
       "labelset": "Group",
       "cell_label": "GPin-BF Cholinergic GABA",
       "cell_set_accession": "CS20250428_GROUP_0003",
-      "cell_ontology_term_id": "CL:0011005",
-      "cell_ontology_term": "GABAergic interneuron",
+      "cell_ontology_term_id": "CL:0008061",
+      "cell_ontology_term": "GABA-Chol neuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0001",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2298,8 +2309,8 @@
       "labelset": "Group",
       "cell_label": "STR Cholinergic GABA",
       "cell_set_accession": "CS20250428_GROUP_0055",
-      "cell_ontology_term_id": "CL:0011005",
-      "cell_ontology_term": "GABAergic interneuron",
+      "cell_ontology_term_id": "CL:0020008",
+      "cell_ontology_term": "striatal cholinergic-GABAergic neuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0001",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2342,8 +2353,8 @@
       "labelset": "Group",
       "cell_label": "STRd Cholinergic GABA",
       "cell_set_accession": "CS20250428_GROUP_0048",
-      "cell_ontology_term_id": "CL:0011005",
-      "cell_ontology_term": "GABAergic interneuron",
+      "cell_ontology_term_id": "CL:0020007",
+      "cell_ontology_term": "dorso-striatal cholinergic-GABAergic neuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0001",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
@@ -2633,8 +2644,8 @@
       "labelset": "Group",
       "cell_label": "STH PVALB-PITX2 Glut",
       "cell_set_accession": "CS20250428_GROUP_0038",
-      "cell_ontology_term_id": "CL:4042023",
-      "cell_ontology_term": "striatal pthlh-expressing interneuron",
+      "cell_ontology_term_id": "CL:4042040",
+      "cell_ontology_term": "glutamatergic neuron of the basal ganglia",
       "rationale_dois": [
         "https://doi.org/10.1038/s41586-023-06812-z"
       ],
@@ -2934,6 +2945,8 @@
       "labelset": "Group",
       "cell_label": "ImAstro",
       "cell_set_accession": "CS20250428_GROUP_0017",
+      "cell_ontology_term_id": "CL:0000127",
+      "cell_ontology_term": "astrocyte",
       "marker_gene_evidence": [
         "AQP4",
         "PTPRC"
