@@ -30,6 +30,12 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install tdta cas-tools
+
+      - name: Download cl.db.gz
+        run: |
+          mkdir -p ~/.data/oaklib
+          curl -L -o ~/.data/oaklib/cl.db.gz https://github.com/obophenotype/cell-ontology/releases/latest/download/cl.db.gz
+
       - name: Google sheets to tsv
         run: python src/google_sheets_to_tsv.py
         
