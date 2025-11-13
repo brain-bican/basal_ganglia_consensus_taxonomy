@@ -31,6 +31,11 @@ jobs:
           python -m pip install --upgrade pip
           pip install tdta cas-tools
 
+      - name: Download cl.db.gz
+        run: |
+          mkdir -p ~/.data/oaklib
+          curl -L -o ~/.data/oaklib/cl.db.gz https://github.com/obophenotype/cell-ontology/releases/latest/download/cl.db.gz
+
       - name: Identify JSON file and Taxonomy ID
         id: set_vars
         run: |
