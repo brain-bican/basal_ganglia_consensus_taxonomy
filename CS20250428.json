@@ -1058,10 +1058,11 @@
         "https://doi.org/10.1038/s41593-023-01368-7"
       ],
       "marker_gene_evidence": [
-        "GAD1/2",
-        " FOXP2",
-        " MEIS2",
-        " and NPAS1"
+        "GAD1",
+        "GAD2",
+        "FOXP2",
+        "MEIS2",
+        "NPAS1"
       ],
       "parent_cell_set_accession": "CS20250428_SUBCL_0006",
       "author_annotation_fields": {
