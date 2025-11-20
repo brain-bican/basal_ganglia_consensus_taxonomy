@@ -996,7 +996,7 @@
       "cell_label": "OT D1 ICj",
       "cell_set_accession": "CS20250428_GROUP_0024",
       "cell_ontology_term_id": "CL:4030053",
-      "cell_ontology_term": "Island of Calleja granule cell",
+      "cell_ontology_term": "Islands of Calleja granule cell",
       "rationale_dois": [
         "https://doi.org/10.1016/j.cub.2021.10.015"
       ],
@@ -1777,6 +1777,7 @@
       "cell_set_accession": "CS20250428_GROUP_0047",
       "cell_ontology_term_id": "CL:4023016",
       "cell_ontology_term": "VIP GABAergic interneuron",
+      "rationale": "Mapping to the general type VIP GABAergic neuron is supported by MapMyCells heirarchical annotation transfer mapping to 046 Vip Gaba in the whole mouse brain taxonomy v1.",
       "rationale_dois": [
         "https://doi.org/10.1038/s41586-020-2874-8"
       ],
@@ -1934,7 +1935,7 @@
       "cell_label": "STR SST-RSPO2 GABA",
       "cell_set_accession": "CS20250428_GROUP_0044",
       "cell_ontology_term_id": "CL:4023017",
-      "cell_ontology_term": "sst GABAergic interneuron",
+      "cell_ontology_term": "GABAergic interneuron",
       "parent_cell_set_accession": "CS20250428_SUBCL_0031",
       "author_annotation_fields": {
         "embedding_set": "Interneuron",
