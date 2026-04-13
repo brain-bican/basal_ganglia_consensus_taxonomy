@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-import subprocess
 from pathlib import Path
+
 import requests
 
 SHEET_ID = "1yatMYkBVp7xac3DAJZ0r6jrtDBhyfjqAUcC1efDYLuc"
+TAB_PREFIX = "BGCT"
 
-# Map tab names -> gids (fill in the real gid values)
+# Map tab names -> gids for tabs exported into curation_tables/.
 TABS = {
-    "WMBT_annotation": "0",
+    "BGCT_annotation": "0",
 }
 
 OUTDIR = Path(__file__).resolve().parents[1] / "curation_tables"
@@ -22,7 +23,7 @@ for tab_name, gid in TABS.items():
     url = (
         f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=tsv&gid={gid}"
     )
-    out_name = strip_prefix(tab_name, "WMBT") or "sheet"
+    out_name = strip_prefix(tab_name, TAB_PREFIX) or "sheet"
     out_file = OUTDIR / f"{out_name}.tsv"
 
     with requests.get(url, stream=True, timeout=60) as r:
