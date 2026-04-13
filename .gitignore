@@ -3,3 +3,6 @@ build/
 .DS_Store
 purl/mytoken.txt
 *.pid
+.idea/
+neighborhood_cell_labels.txt
+src/__pycache__/
